@@ -3,6 +3,6 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyPrependKitten(value){
-  kittens.shift(value)
+  kittens.push(value)
   return kittens
 }
