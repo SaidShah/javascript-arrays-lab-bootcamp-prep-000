@@ -23,6 +23,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(value){
-  var newKittens = kittens.splice(length-1,0,value)
+  kittens.splice(0,0,value)
   return newKittens
 }
