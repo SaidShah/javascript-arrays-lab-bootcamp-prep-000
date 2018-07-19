@@ -34,11 +34,14 @@ var newKit = [value, ...kittens]
 
 function removeLastKitten(){
 
-  
-  
+ var newKit =  kittens.slice(0,2)
+  return newKit
 }
 
-
+function removeFirstKitten(){
+  var newKit = kittens.slice(1,3)
+  return newKit
+}
 
 
 
