@@ -6,7 +6,13 @@ function destructivelyAppendKitten(value){
   kittens.push(value)
   return kittens
 }
+
 function destructivelyPrependKitten(value){
   kittens.unshift(value)
+  return kittens
+}
+
+function destructivelyRemoveLastKitten(){
+  kittens.shift()
   return kittens
 }
