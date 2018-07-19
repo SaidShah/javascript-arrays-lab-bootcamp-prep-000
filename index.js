@@ -22,3 +22,6 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 
+function appendKitten(value){
+  var newKittens = kittens.splice
+}
