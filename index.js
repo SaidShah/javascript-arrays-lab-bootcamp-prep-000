@@ -1,6 +1,6 @@
 // Add your functions and code here
 
-//var kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(value){
   kittens.push(value)
@@ -23,11 +23,11 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(value){
-kittens.splice(kittens..., value)
+ kittens.splice(-1,0,value)
   return kittens
 }
 
 function prependKitten(value){
- kittens.splice(value, kittens...)
+kittens.splice(0,0,value)
   return kittens
 }
