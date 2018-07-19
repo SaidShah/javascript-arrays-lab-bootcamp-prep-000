@@ -2,7 +2,7 @@
 
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyPrependKitten(givenArray, value){
-  givenArray.shift(value)
-  return givenArray
+function destructivelyPrependKitten(value){
+  kittens.shift(value)
+  return kittens
 }
